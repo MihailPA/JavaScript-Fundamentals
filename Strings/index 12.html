@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        html,body  {
+            margin:0px;
+            padding:10px;
+        }
+        body { 
+            background-color:skyblue;
+        }
+        input[type="text"]  {
+			position: 
+            margin-right:10px;
+            text-align:center;
+        }
+        ul { 
+            list-style:none;
+            max-width:200px;
+        }
+        ul > li {
+            border:1px solid black;
+            margin-top:2px;
+            min-width:1px;
+            white-space:nowrap;
+            padding:10px;
+        }
+          ul > li > span{
+           margin-left:25px;
+        }
+    </style>
+    <script src="Problem 12.js"></script>
+</head>
+<body>
+    <input type="text" id="nameEntry" placeholder="Name"/>
+    <input type="text" id="ageEntry" placeholder="Age"/>
+    <button onclick="makeNewPersonIfValid()">Submit</button>
+    <br/>
+    <ul id="ul"></ul>
+</body>
+</html>

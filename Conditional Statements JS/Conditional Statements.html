@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Conditional Statements</title>
+    <link rel="stylesheet" href="CSSCS.css" />
+    <script src="conditionalStatements.js"></script>
+</head>
+<body>
+    <div class="rightside">
+        <h1>Your result!</h1>
+        <textarea disabled="disabled" rows="3" cols="15" id="console"></textarea>
+    </div>
+    <div class="center">
+        <div class="box">
+            <h4>Problem 1. Exchange if greater</h4>
+            <form>
+                <label for="problem1a">A: </label>
+                <input type="number" id="problem1a" /><br />
+                <label for="problem1b">B: </label>
+                <input type="number" id="problem1b" />
+                <input type="button" value="CLICK" onclick="exchange()" />
+            </form>
+        </div>
+        <div class="box">
+            <h4>Problem 2. Multiplication Sign</h4>
+            <form>
+                <label for="problem2a">A: </label>
+                <input type="number" id="problem2a" /><br />
+                <label for="problem2b">B: </label>
+                <input type="number" id="problem2b" /><br />
+                <label for="problem2c">C: </label>
+                <input type="number" id="problem2c" />
+                <input type="button" value="CLICK" onclick="multiplicationSign()" />
+            </form>
+        </div>
+        <div class="box">
+            <h4>Problem 3. The biggest of Three</h4>
+            <form>
+                <label for="prob3a">A: </label>
+                <input type="number" id="prob3a" /><br />
+                <label for="prob3b">B: </label>
+                <input type="number" id="prob3b" /><br />
+                <label for="prob3c">C: </label>
+                <input type="number" id="prob3c" />
+                <input type="button" value="CLICK" onclick="biggest()" />
+            </form>
+        </div>
+        <div class="box">
+            <h4>Problem 4. Sort 3 numbers</h4>
+            <form>
+                <label for="problem4a">A: </label>
+                <input type="number" id="problem4a" /><br />
+                <label for="problem4b">B: </label>
+                <input type="number" id="problem4b" /><br />
+                <label for="problem4c">C: </label>
+                <input type="number" id="problem4c" />
+                <input type="button" value="CLICK" onclick="sortNum()" />
+            </form>
+        </div>
+        <div class="box">
+            <h4>Problem 5. Digit as word</h4>
+            <form>
+                <label for="problem5a">Digit: </label>
+                <input type="number" id="problem5a" />
+                <input type="button" value="CLICK" onclick="digitWord()" />
+            </form>
+        </div>
+        <div class="box">
+            <h4>Problem 6. Quadratic equation</h4>
+            <form>
+                <label for="problem6a">A: </label>
+                <input type="number" id="problem6a" placeholder="Example: 2" /><br />
+                <label for="problem6b">B: </label>
+                <input type="number" id="problem6b" placeholder="Example: 5" /><br />
+                <label for="problem6c">C: </label>
+                <input type="number" id="problem6c" placeholder="Example: -3" />
+                <input type="button" value="CLICK" onclick="quadEquation()" />
+            </form>
+        </div>
+        <div class="box">
+            <h4>Problem 7. The biggest of five numbers</h4>
+            <form>
+                <label for="problem7a">A: </label>
+                <input type="number" id="problem7a" /><br />
+                <label for="problem7b">B: </label>
+                <input type="number" id="problem7b" /><br />
+                <label for="problem7c">C: </label>
+                <input type="number" id="problem7c" /><br />
+                <label for="problem7d">D: </label>
+                <input type="number" id="problem7d" /><br />
+                <label for="problem7e">E: </label>
+                <input type="number" id="problem7e" />
+                <input type="button" value="CLICK" onclick="biggest()" />
+            </form>
+        </div>
+        <div class="box">
+            <h4>Problem 8. Number as words</h4>
+            <form>
+                <label for="problem8a">Number: </label>
+                <input type="number" id="problem8a" />
+                <input type="button" value="CLICK" onclick="numWord()" />
+            </form>
+        </div>
+    </div>
+</body>
+</html>

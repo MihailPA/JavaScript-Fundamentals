@@ -1,0 +1,52 @@
+﻿label {
+ font-weight:bold
+}
+.box {
+    border: 2px solid black;
+    padding-left: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    background-color: lightskyblue;
+    text-align: center;
+
+}
+.center {
+    display: inline-block;
+    width: 35%;
+    float: left;
+}
+
+.rightside {
+    position: fixed;
+    width: 70%;
+    left:50%;
+    top: 50%;
+}
+.rightside textarea {
+    text-align:center;
+    width: 40%;
+}
+
+legend {
+    font-weight:bold
+}
+
+input[type="button"] {
+    margin-left: 18px;
+    display:block;
+    position: relative;
+    left: 41% 
+}
+input {
+    margin-bottom: 5px
+}
+
+h1 {
+   display: inline-block;
+   position: fixed;
+   top: 30%;
+   left: 55%;
+   font-family: Impact;
+   color: #004fff;
+   font-size: 50px;
+}
